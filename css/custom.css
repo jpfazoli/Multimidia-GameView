@@ -1,0 +1,63 @@
+.menu{
+    z-index: 3;
+}
+
+.principal {
+    background-color: #1A374D;
+}
+
+.texto-principal{
+    color: #B1D0E0;
+}
+
+.secundaria{
+    background-color: #406882;
+}
+
+.texto-secundario{
+    color: #1A374D;
+}
+
+.titulo-card{
+    color: #B1D0E0;
+}
+
+.texto-card{
+    color: #B1D0E0;
+}
+
+.cor-card{
+    background-color: #1A374D;
+}
+
+.btn-acesse{
+    background-color: #6998AB;
+    color: #1A374D;
+    font-weight: bold;
+}
+
+.cor-rodape{
+    background-color: #6998AB;
+}
+
+.texto-rodape{
+    color: #1A374D;
+}
+
+.texto-conteudo{
+    color: #B1D0E0;
+    text-align: justify;
+}
+
+.fotos{
+    border: 3px solid #B1D0E0;
+}
+
+.galeria:active{
+    -webkit-transform:  scale(2);
+    -moz-transform:     scale(2);
+    -ms-transform:      scale(2);
+    -o-transform:       scale(2);
+    transform:          scale(2);
+    z-index: 2;
+}
