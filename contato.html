@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameView: Conhecendo o Mundo dos Games</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/icon.png">
+    
+    
+
+</head>
+<body class="secundaria">
+
+  <header class="menu position-sticky top-0 principal">
+    <div class="row">
+      
+        <div class="col-4  my-3">
+          <a href="index.html" class="ms-2 ms-lg-5"> 
+          <img class="img-fluid" src="img/Logo.png" alt="" style="width: 10rem;">
+          </a>
+        </div>
+        <div class="col-8" >
+            
+          <nav class="navbar navbar-expand-lg h-100 float-end me-2 me-lg-5 ">
+            <div class="container-fluid">
+              <button class="navbar-toggler secundaria" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item dropdown mx-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jogos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Cat_Aventura.html" >Aventura</a></li>
+                      <li><a class="dropdown-item" href="Cat_Terror.html">Terror</a></li>
+                      <li><a class="dropdown-item" href="Cat_Cooperativo.html">Cooperativo</a></li>
+                      <li><a class="dropdown-item" href="Cat_Corrida.html">Corrida</a></li>
+                      <li><a class="dropdown-item" href="Cat_Soulslike.html">Soulslike</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link texto-principal" href="contato.html">Fale Conosco</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Login
+                    </a>
+                    <ul class="dropdown-menu p-3" aria-labelledby="navbarLogin">
+                      <form method="post" action="login.php">
+                      <li><label for="login">Login</label>
+                          <input type="text" name="txtlogin" id="login" placeholder="E-mail/Usuário" size="30"  >
+                      </li>
+                      <li><label for="senha">Senha</label>
+                        <input type="password" name="txtsenha" id="senha" size="12" placeholder="Senha">
+                      </li>
+                      <li class="float-end"><input type="submit" value="Entrar"></li>
+                      </form>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="container mt-3">
+
+    <div class="container principal rounded p-5">
+
+        <h3 class="texto-principal">Formulário de SAC</h3>
+
+        <form method="post" action="feedback.php">
+            <p>
+            <label class="texto-principal" for="nome">Nome Completo:</label>
+            <input type="text" name="txtNome" id="nome" placeholder=" Insira seu Nome" maxlength="150" size="50">
+            </p>
+            <p>
+            <label class="texto-principal" for="email">Email:  </label>
+            <input type="email" name="txtemail" id="email" placeholder=" exemplo@gameview.com.br" maxlength="70" size="50">
+            </p>
+            <p>
+            <label class="texto-principal" for="telefone">Telefone:</label>
+            <input type="text" name="txtTelefone" id="telefone" placeholder=" (XX) XXXXX=XXXX" maxlength="20">
+            </p>
+
+            <p>
+            <label class="texto-principal"    for="feedback">Problema ou Sugestão:</label><br>
+            <textarea name="txtfeedback" id="feedback" cols="70" rows="10" placeholder=" Deixe sua Sugestão ou Ocorrido."></textarea>
+            </p>
+
+            <p>
+                <input class="btn btn-acesse" type="submit" value="ENVIAR">
+            </p>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--RODAPÉ-->
+<div class="cor-rodape mt-4">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-3 texto-rodape col-sm-12 mb-4 mb-lg-0">
+          <div class="col"><img class="w-75" src="img/logo-franco.png" alt=""></div>
+          <div class="col"> <p> Desenvolvido por João Pedro Fazoli de Souza</p>
+          <p>Estudante do 5° Semestre de Ciência da Computação</p></div>  
+      </div>
+      <div class="col-lg-3 col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Redes Sociais</h5></li>
+          <li><hr class="divider"></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://pt-br.facebook.com/">Facebook</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Categorias</h5></li>
+          <li><hr class="divider"></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Aventura.html">Aventura</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Terror.html">Terror</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Cooperativo.html">Cooperativo</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Corrida.html">Corrida</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Soulslike.html">Soulslike</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Contato</h5></li>
+          <li><hr class="divider"></li>
+          <li>Telefone: +55 (19) 90000-0000</li>
+          <li>E-mail: contato@gameview.com.br</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

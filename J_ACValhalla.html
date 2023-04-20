@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameView: Conhecendo o Mundo dos Games</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/icon.png">
+    
+    
+
+</head>
+<body class="secundaria">
+
+  <header class="menu position-sticky top-0 principal">
+    <div class="row">
+      
+        <div class="col-4  my-3">
+          <a href="index.html" class="ms-2 ms-lg-5"> 
+          <img class="img-fluid" src="img/Logo.png" alt="" style="width: 10rem;">
+          </a>
+        </div>
+        <div class="col-8" >
+            
+          <nav class="navbar navbar-expand-lg h-100 float-end me-2 me-lg-5 ">
+            <div class="container-fluid">
+              <button class="navbar-toggler secundaria" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item dropdown mx-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jogos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Cat_Aventura.html" >Aventura</a></li>
+                      <li><a class="dropdown-item" href="Cat_Terror.html">Terror</a></li>
+                      <li><a class="dropdown-item" href="Cat_Cooperativo.html">Cooperativo</a></li>
+                      <li><a class="dropdown-item" href="Cat_Corrida.html">Corrida</a></li>
+                      <li><a class="dropdown-item" href="Cat_Soulslike.html">Soulslike</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link texto-principal" href="contato.html">Fale Conosco</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Login
+                    </a>
+                    <ul class="dropdown-menu p-3" aria-labelledby="navbarLogin">
+                      <form method="post" action="login.php">
+                      <li><label for="login">Login</label>
+                          <input type="text" name="txtlogin" id="login" placeholder="E-mail/Usuário" size="30"  >
+                      </li>
+                      <li><label for="senha">Senha</label>
+                        <input type="password" name="txtsenha" id="senha" size="12" placeholder="Senha">
+                      </li>
+                      <li class="float-end"><input type="submit" value="Entrar"></li>
+                      </form>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="container mt-3">
+<!--CARROSEL-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrosel/AC Valhalla-capa.jpg" class="rounded d-block w-100" alt="Elden Ring">
+    </div>
+    <div class="carousel-item principal">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/TUbgBVTD7VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/SUxjS3xQ4QM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!--CONTEUDO-->
+
+<div class="row conteudo-principal">
+    <div class="col-md-9 col-sm-12 py-4">
+        <div class="container principal rounded p-5">
+        <h2 class="texto-conteudo">Assassin's Creed Valhalla</h2>
+        <p class="texto-conteudo">Gênero: RPG, Aventura</p>
+        <p class="texto-conteudo">Classificação Indicativa: 18</p>
+        <p class="texto-conteudo">Plataformas: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</h5>
+        <p class="texto-conteudo">Data de Lançamento: 10 de Novembro de 2020 (11/10/2020)</h5>
+        <p class="texto-conteudo">Desenvolvedora(s): Ubisoft Montreal</p>
+
+        <p class="texto-conteudo text-break">Os jogadores terão opção de jogar de Eivor como homem ou mulher e poderão escolher 
+            a sua aparência fisica e equipamento. O combate foi alterado para permitir o uso de quase todas as armas. 
+            Também se espera que a mecânica do "Visão de Águia" retorne na forma de um corvo que será companheiro animal de Eivor 
+            no jogo. O jogador pode usar o corvo para explorar as áreas próximas, como tinha acontecido em Origins e Odyssey. 
+            O jogo dependerá menos de um sistema de nivelamento tradicional e, em vez disso, se concentrará mais na seleção de 
+            habilidades por meio de árvores de habilidades, selecionado pelo jogador enquanto Eivor avança no jogo. Os inimigos 
+            serão classificados com base na coleção de habilidades. As árvores de habilidades serão semelhantes às encontradas 
+            em The Witcher 3: Wild Hunt, Fallout 4, e The Elder Scrolls V: Skyrim. As escolhas dos jogadores por meio de opções 
+            de conversação ou jogabilidade terão impactos sobre os personagens e suas alianças políticas com outros personagens 
+            que não são jogadores.
+        </p>
+        <p class="texto-conteudo text-break">
+            Uma característica central do jogo é o acordo que o jogador, como Eivor, ajudará a construir e liderar durante o jogo. 
+            O diretor do jogo, Ashraf Ismail, descreveu sua importância como "muito do que você está fazendo no mundo dos jogos 
+            é, no final das contas, alimentar o assentamento para que ele possa crescer e florescer". O jogador poderá direcionar 
+            a construção de certos tipos de edifícios que, por sua vez, proporcionam benefícios para a jogabilidade. Para construir 
+            essas estruturas, o jogador precisará liderar os vikings em ataques para coletar recursos. O combate naval retornará, 
+            embora mais como um meio mais rápido de viajar para realizar ataques e escapar após um combate terrestre, em vez de se 
+            envolver com outros navios da marinha.
+        </p>
+        <div class="row">
+        <h4 class="texto-conteudo my-3"> Requisitos e Configurações para PC</h5>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="texto-conteudo">Requisitos Mínimos:</h5>
+            <p class="texto-conteudo text-break">
+                CPU: AMD Ryzen 3 1200 3.1 GHz / Intel Core i5-4460 3.2 GHz<br>
+                GPU: AMD R9 380 /NVIDIA GeForce GTX 960<br>
+                VRAM: 4 GB<br>
+                RAM: 8GB (Dual-channel setup)<br>
+                STORAGE: 130GB<br>
+                OS: Windows 10 (64-bit)
+            </p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="texto-conteudo">Requisitos Recomendados:</h5>
+            <p class="texto-conteudo text-break">
+                CPU: AMD Ryzen 5 1600 3.2 GHz / Intel Core i7-4790 3.6 GHz<br>
+                GPU: AMD R9 380 /NVIDIA GeForce GTX 960<br>
+                VRAM: 8 GB<br>
+                RAM: 8GB (Dual-channel setup)<br>
+                STORAGE: 130GB<br>
+                OS: Windows 10 (64-bit)
+            </p>
+        </div>
+        </div>
+        
+
+        <div class="row mt-5">
+            <h3 class="texto-conteudo">Galeria</h3>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/AC Valhalla/AC Valhalla-1.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/AC Valhalla/AC Valhalla-2.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/AC Valhalla/AC Valhalla-3.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/AC Valhalla/AC Valhalla-4.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/AC Valhalla/AC Valhalla-5.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/AC Valhalla/AC Valhalla-6.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-3 col-sm-12 py-4">
+        <div class=" principal rounded py-5 px-2">
+            <h3 class="texto-principal text-center">Recomendados</h3>
+            
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/HORIZON-FORBIDDEN-WEST.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Horizon Forbidden West</h5>
+                      <p class="texto-card">Gênero: Aventura, RPG</p>
+                      <p class="texto-card">Plataforma: Playstation 4, Playstation 5</p>
+                      <p class="texto-card">Junte-se a Aloy para encarar o Oeste Proibido, um território que esconde novas ameaças misteriosas. 
+                        Um vasto mundo aberto: descubra terras distantes, novos inimigos, culturas magníficas e personagens surpreendentes</p>
+                      <a href="J_Horizon.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/The Last Of Us Part II.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">The Last of Us Part II</h5>
+                      <p class="texto-card">Gênero: Terror, Aventura</p>
+                      <p class="texto-card">Plataforma: Playstation 4</p>
+                      <p class="texto-card">Uma história complexa e emocionante
+                        Vivencie os conflitos morais cada vez maiores criados pela busca implacável de Ellie por vingança. O ciclo de 
+                        violência deixado em seu caminho desafiará suas noções de certo ou errado, bem ou mal e herói ou vilão.</p>
+                      <a href="J_TLOUPartII.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+<!--RODAPÉ-->
+<div class="cor-rodape">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-3 texto-rodape col-sm-12 mb-4 mb-lg-0">
+          <div class="col"><img class="w-75" src="img/logo-franco.png" alt=""></div>
+          <div class="col"> <p> Desenvolvido por João Pedro Fazoli de Souza</p>
+          <p>Estudante do 5° Semestre de Ciência da Computação</p></div>  
+      </div>
+      <div class="col-lg-3 col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Redes Sociais</h5></li>
+          <li><hr class="divider"></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://pt-br.facebook.com/">Facebook</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Categorias</h5></li>
+          <li><hr class="divider"></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Aventura.html">Aventura</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Terror.html">Terror</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Cooperativo.html">Cooperativo</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Corrida.html">Corrida</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Soulslike.html">Soulslike</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Contato</h5></li>
+          <li><hr class="divider"></li>
+          <li>Telefone: +55 (19) 90000-0000</li>
+          <li>E-mail: contato@gameview.com.br</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

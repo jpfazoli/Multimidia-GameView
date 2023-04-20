@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameView: Conhecendo o Mundo dos Games</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/icon.png">
+    
+    
+
+</head>
+<body class="secundaria">
+
+  <header class="menu position-sticky top-0 principal">
+    <div class="row">
+      
+        <div class="col-4  my-3">
+          <a href="index.html" class="ms-2 ms-lg-5"> 
+          <img class="img-fluid" src="img/Logo.png" alt="" style="width: 10rem;">
+          </a>
+        </div>
+        <div class="col-8" >
+            
+          <nav class="navbar navbar-expand-lg h-100 float-end me-2 me-lg-5 ">
+            <div class="container-fluid">
+              <button class="navbar-toggler secundaria" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item dropdown mx-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jogos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Cat_Aventura.html" >Aventura</a></li>
+                      <li><a class="dropdown-item" href="Cat_Terror.html">Terror</a></li>
+                      <li><a class="dropdown-item" href="Cat_Cooperativo.html">Cooperativo</a></li>
+                      <li><a class="dropdown-item" href="Cat_Corrida.html">Corrida</a></li>
+                      <li><a class="dropdown-item" href="Cat_Soulslike.html">Soulslike</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link texto-principal" href="contato.html">Fale Conosco</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Login
+                    </a>
+                    <ul class="dropdown-menu p-3" aria-labelledby="navbarLogin">
+                      <form method="post" action="login.php">
+                      <li><label for="login">Login</label>
+                          <input type="text" name="txtlogin" id="login" placeholder="E-mail/Usuário" size="30"  >
+                      </li>
+                      <li><label for="senha">Senha</label>
+                        <input type="password" name="txtsenha" id="senha" size="12" placeholder="Senha">
+                      </li>
+                      <li class="float-end"><input type="submit" value="Entrar"></li>
+                      </form>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="container mt-3">
+<!--CARROSEL-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrosel/Horizon-capa.jpg" class="rounded d-block w-100" alt="Elden Ring">
+    </div>
+    <div class="carousel-item principal">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/Lq594XmpPBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/ztwwQByMmmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!--CONTEUDO-->
+
+<div class="row conteudo-principal">
+    <div class="col-md-9 col-sm-12 py-4">
+        <div class="container principal rounded p-5">
+        <h2 class="texto-conteudo">Horizon Forbidden West</h2>
+        <p class="texto-conteudo">Gênero: Aventura, RPG</p>
+        <p class="texto-conteudo">Classificação Indicativa: 12</p>
+        <p class="texto-conteudo">Plataformas: Playstation 4, Playstation 5</h5>
+        <p class="texto-conteudo">Data de Lançamento: 18 de Fevereiro de 2022 (02/18/2022)</h5>
+        <p class="texto-conteudo">Desenvolvedora(s): Guerrilla Games</p>
+
+        <p class="texto-conteudo text-break">
+            Horizon Forbidden West é um jogo eletrônico de RPG de ação com uma perspectiva em terceira pessoa. Os jogadores controlam 
+            Aloy, uma caçadora em um mundo governado por máquinas. O jogo apresenta um mundo aberto ambientado numa Califórnia 
+            pós-apocalíptica. Os locais apresentados no trailer de anúncio do jogo incluem uma São Francisco em ruínas e Vale de 
+            Yosemite.
+        </p>
+        <p class="texto-conteudo text-break">
+            Horizon Forbidden West é uma sequência de Horizon Zero Dawn, de 2017. Ele foi desenvolvido pela Guerrilla Games e 
+            publicado pela Sony Interactive Entertainment para os consoles PlayStation 4 e PlayStation 5. O diretor do jogo é 
+            Mathijs de Jonge, enquanto que o diretor narrativo é Benjamin McCaw. A banda The Flight (composta por Joe Henson e Alexis 
+            Smith), Joris de Man e Niels van de Leest contribuíram para compor a trilha sonora original do jogo ao lado de Oleksa 
+            Lozowchuk. Ashly Burch, Lance Reddick e John Hopkins reprisam seus papéis como Aloy, Sylens e Erend, respectivamente.
+        </p>
+        <p class="texto-conteudo text-break">
+            A versão para PlayStation 5 de Forbidden West aproveita do poder de processamento aprimorado do console, seu armazenamento 
+            de unidade de estado sólido (SSD) personalizado, a Tempest Engine e o controle DualSense a fim de oferecer suporte a 
+            recursos como feedback háptico avançado, áudio espacial 3D, iluminação aprimorada, efeitos visuais aprimorados e tempos de 
+            carregamento reduzidos. A versão de PlayStation 5 também conta com um "modo de desempenho" opcional que permite 
+            que o jogo seja executado a 60 quadros por segundo com uma resolução base inferior. O jogo usa uma versão atualizada do 
+            motor de jogo Decima com suporte para high dynamic range (HDR).
+        </p>
+        
+
+        <div class="row mt-5">
+            <h3 class="texto-conteudo">Galeria</h3>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Horizon/Horizon-1.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Horizon/Horizon-2.jpg" class="img-fluid fotos w-100" style="height: 9.8rem;" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Horizon/Horizon-3.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Horizon/Horizon-4.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Horizon/Horizon-5.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Horizon/Horizon-6.jpg" class="img-fluid fotos w-100" style="height: 9.8rem;" alt="...">
+
+            </div>
+            
+        </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-3 col-sm-12 py-4">
+        <div class=" principal rounded py-5 px-2">
+            <h3 class="texto-principal text-center">Recomendados</h3>
+            
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/AC Valhalla.jpeg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Assassin's Creed Valhalla</h5>
+                      <p class="texto-card">Gênero: RPG, Aventura</p>
+                      <p class="texto-card">Plataforma: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</p>
+                      <p class="texto-card">Torne-se Eivor, um invasor Viking lendário em busca de glória. Explore a Idade
+                         das Trevas da Inglaterra enquanto ataca seus inimigos, amplia seu assentamento e consolida seu poder político.</p>
+                      <a href="J_ACValhalla.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/star-wars-card.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Star Wars Jedi Fallen Order</h5>
+                      <p class="texto-card">Gênero: Aventura, RPG, Soulslike</p>
+                      <p class="texto-card">Plataforma: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</p>
+                      <p class="texto-card">Prepare-se para cruzar a galáxia em STAR WARS Jedi: Fallen Order, uma aventura em terceira pessoa cheia de ação da Respawn Entertainment.
+                        Um padawan perdido precisa completar seu treinamento</p>
+                      <a href="J_SWJediFallenOrder.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+<!--RODAPÉ-->
+<div class="cor-rodape">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-3 texto-rodape col-sm-12 mb-4 mb-lg-0">
+          <div class="col"><img class="w-75" src="img/logo-franco.png" alt=""></div>
+          <div class="col"> <p> Desenvolvido por João Pedro Fazoli de Souza</p>
+          <p>Estudante do 5° Semestre de Ciência da Computação</p></div>  
+      </div>
+      <div class="col-lg-3 col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Redes Sociais</h5></li>
+          <li><hr class="divider"></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://pt-br.facebook.com/">Facebook</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Categorias</h5></li>
+          <li><hr class="divider"></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Aventura.html">Aventura</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Terror.html">Terror</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Cooperativo.html">Cooperativo</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Corrida.html">Corrida</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Soulslike.html">Soulslike</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Contato</h5></li>
+          <li><hr class="divider"></li>
+          <li>Telefone: +55 (19) 90000-0000</li>
+          <li>E-mail: contato@gameview.com.br</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

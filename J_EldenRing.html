@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameView: Conhecendo o Mundo dos Games</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/icon.png">
+    
+    
+
+</head>
+<body class="secundaria">
+
+  <header class="menu position-sticky top-0 principal">
+    <div class="row">
+      
+        <div class="col-4  my-3">
+          <a href="index.html" class="ms-2 ms-lg-5"> 
+          <img class="img-fluid" src="img/Logo.png" alt="" style="width: 10rem;">
+          </a>
+        </div>
+        <div class="col-8" >
+            
+          <nav class="navbar navbar-expand-lg h-100 float-end me-2 me-lg-5 ">
+            <div class="container-fluid">
+              <button class="navbar-toggler secundaria" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item dropdown mx-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jogos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Cat_Aventura.html" >Aventura</a></li>
+                      <li><a class="dropdown-item" href="Cat_Terror.html">Terror</a></li>
+                      <li><a class="dropdown-item" href="Cat_Cooperativo.html">Cooperativo</a></li>
+                      <li><a class="dropdown-item" href="Cat_Corrida.html">Corrida</a></li>
+                      <li><a class="dropdown-item" href="Cat_Soulslike.html">Soulslike</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link texto-principal" href="contato.html">Fale Conosco</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Login
+                    </a>
+                    <ul class="dropdown-menu p-3" aria-labelledby="navbarLogin">
+                      <form method="post" action="login.php">
+                      <li><label for="login">Login</label>
+                          <input type="text" name="txtlogin" id="login" placeholder="E-mail/Usuário" size="30"  >
+                      </li>
+                      <li><label for="senha">Senha</label>
+                        <input type="password" name="txtsenha" id="senha" size="12" placeholder="Senha">
+                      </li>
+                      <li class="float-end"><input type="submit" value="Entrar"></li>
+                      </form>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="container mt-3">
+<!--CARROSEL-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrosel/elden-ring-capa.jpg" class="rounded d-block w-100" alt="Elden Ring">
+    </div>
+    <div class="carousel-item principal">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/AKXiKBnzpBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/dodU_q8YDWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!--CONTEUDO-->
+
+<div class="row conteudo-principal">
+    <div class="col-md-9 col-sm-12 py-4">
+        <div class="container principal rounded p-5">
+        <h2 class="texto-conteudo">Elden Ring</h2>
+        <p class="texto-conteudo">Gênero: RPG, Soulslike</p>
+        <p class="texto-conteudo">Classificação Indicativa: 18</p>
+        <p class="texto-conteudo">Plataformas: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</h5>
+        <p class="texto-conteudo">Data de Lançamento: 25 de Fevereiro de 2022 (02/25/2022)</h5>
+        <p class="texto-conteudo">Desenvolvedora(s): FromSoftware</p>
+
+        <p class="texto-conteudo text-break">Elden Ring é um jogo eletrônico de RPG de ação jogado de uma perspectiva em terceira
+             pessoa e apresenta elementos semelhantes aos encontrados em seus antecessores, a série Souls, além de Bloodborne e 
+             Sekiro: Shadows Die Twice, com uma jogabilidade focada em combate e exploração. O diretor Hidetaka Miyazaki explicou
+              que os jogadores começam em um ambiente linear, mas eventualmente progridem para explorar livremente as Terras 
+              Intermédias, incluindo suas seis áreas principais, bem como castelos, fortalezas e catacumbas espalhadas pelo vasto
+               mapa de mundo aberto. Essas áreas principais são interconectadas através de um ponto central no qual os jogadores
+                podem acessar mais tarde conforme progridem no jogo — semelhante ao Santuário do Enlace de Fogo de Dark Souls — 
+                e serão exploráveis ​​usando a montaria do personagem como o principal meio de transporte, embora um sistema de 
+                viagem rápida seja uma opção disponível. Ao longo do jogo, os jogadores encontram personagens não-jogáveis (NPCs)
+                 e inimigos, incluindo os semideuses que governam cada área principal e servirão como os chefes principais do jogo.
+        </p>
+        <p class="texto-conteudo text-break">
+            O combate em Elden Ring depende muito de elementos de construção de personagens encontrados em títulos anteriores da
+             série Souls e propriedades intelectuais relacionadas, como combate corpo a corpo calculado e de curto alcance com o
+              uso de habilidades e magias, bem como mecânicas de bloqueio e esquiva. Elden Ring apresenta um combate montado e um
+               sistema de furtividade, sendo este último um elemento central da jogabilidade de Sekiro; esses recursos fazem com
+                que o jogador seja encorajado na estratégia de sua abordagem de combate com cada inimigo único que encontrar. O
+                 jogo faz uso de uma barra de resistência do personagem do jogador, depois de estar ausente em Sekiro, embora sua
+                  influência geral sobre o combate tenha sido reduzida em comparação com títulos anteriores que o utilizaram. Ao
+                   contrário de Sekiro, a mecânica de ressurreição após a morte no jogo não está disponível; no entanto, alguns 
+                   elementos foram adicionados para garantir a progressão dos jogadores.
+        </p>
+        <p class="texto-conteudo text-break">  
+            Miyazaki afirmou que a personalização em Elden Ring seria mais rica, pois os jogadores podem descobrir diferentes 
+            habilidades através da exploração do mapa, em vez de desbloquear árvores de habilidades como em Sekiro e diferir 
+            das habilidades de armas pré-fixadas dos jogos anteriores da FromSoftware. Essas habilidades são intercambiáveis 
+            com uma grande variedade de armas que, juntamente com equipamentos, habilidades mágicas e itens que os jogadores 
+            podem criar usando materiais encontrados no mundo, podem ser usados para personalizar o personagem do jogador
+             O jogo também conta com uma mecânica de convocação, onde os jogadores podem convocar uma grande variedade de 
+             espíritos colecionáveis escondidos em todo o mapa do mundo do jogo, incluindo inimigos derrotados anteriormente,
+              como aliados para ajudá-los na batalha. Semelhante à série Souls, o multijogador do jogo permite que outros 
+              jogadores sejam convocados para um modo cooperativo
+        </p>
+        <div class="row">
+        <h4 class="texto-conteudo my-3"> Requisitos e Configurações para PC</h5>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="texto-conteudo">Requisitos Mínimos:</h5>
+            <p class="texto-conteudo text-break">SO: Windows 10<br>
+                Processador: INTEL CORE I5-8400 or AMD RYZEN 3 3300X<br>
+                Memória: 12 GB de RAM<br>
+                Placa de vídeo: NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB<br>
+                DirectX: Versão 12<br>
+                Armazenamento: 60 GB de espaço disponível</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="texto-conteudo">Requisitos Recomendados:</h5>
+            <p class="texto-conteudo text-break">SO: Windows 10/11<br>
+                Processador: INTEL CORE I7-8700K or AMD RYZEN 5 3600X<br>
+                Memória: 16 GB de RAM<br>
+                Placa de vídeo: NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB<br>
+                DirectX: Versão 12<br>
+                Armazenamento: 60 GB de espaço disponível</p>
+        </div>
+        </div>
+        
+
+        <div class="row mt-5">
+            <h3 class="texto-conteudo">Galeria</h3>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Elden Ring/Elden-Ring-1.png" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Elden Ring/Elden-Ring-2.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Elden Ring/Elden-Ring-3.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Elden Ring/Elden-Ring-4.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Elden Ring/Elden-Ring-5.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/Elden Ring/Elden-Ring-6.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-3 col-sm-12 py-4">
+        <div class=" principal rounded py-5 px-2">
+            <h3 class="texto-principal text-center">Recomendados</h3>
+            
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/Sekiro.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Sekiro Shadows Die Twice</h5>
+                      <p class="texto-card">Gênero: RPG, Soulslike</p>
+                      <p class="texto-card">Plataforma: PC, Playstation 4,  Xbox One</p>
+                      <p class="texto-card">Trilhe seu próprio 
+                        caminho de vingança nesta premiada aventura da FromSoftware, os criadores de Bloodborne e da franquia Dark 
+                        Souls.<br> Obtenha vingança. Retome sua honra. Mate astuciosamente.</p>
+                      <a href="J_Sekiro.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/star-wars-card.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Star Wars Jedi Fallen Order</h5>
+                      <p class="texto-card">Gênero: Aventura, RPG, Soulslike</p>
+                      <p class="texto-card">Plataforma: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</p>
+                      <p class="texto-card">Prepare-se para cruzar a galáxia em STAR WARS Jedi: Fallen Order, uma aventura em terceira pessoa cheia de ação da Respawn Entertainment.
+                        Um padawan perdido precisa completar seu treinamento</p>
+                      <a href="J_SWJediFallenOrder.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+<!--RODAPÉ-->
+<div class="cor-rodape">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-3 texto-rodape col-sm-12 mb-4 mb-lg-0">
+          <div class="col"><img class="w-75" src="img/logo-franco.png" alt=""></div>
+          <div class="col"> <p> Desenvolvido por João Pedro Fazoli de Souza</p>
+          <p>Estudante do 5° Semestre de Ciência da Computação</p></div>  
+      </div>
+      <div class="col-lg-3 col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Redes Sociais</h5></li>
+          <li><hr class="divider"></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://pt-br.facebook.com/">Facebook</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Categorias</h5></li>
+          <li><hr class="divider"></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Aventura.html">Aventura</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Terror.html">Terror</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Cooperativo.html">Cooperativo</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Corrida.html">Corrida</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Soulslike.html">Soulslike</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Contato</h5></li>
+          <li><hr class="divider"></li>
+          <li>Telefone: +55 (19) 90000-0000</li>
+          <li>E-mail: contato@gameview.com.br</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

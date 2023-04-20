@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameView: Conhecendo o Mundo dos Games</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="img/icon.png">
+    
+    
+
+</head>
+<body class="secundaria">
+
+  <header class="menu position-sticky top-0 principal">
+    <div class="row">
+      
+        <div class="col-4  my-3">
+          <a href="index.html" class="ms-2 ms-lg-5"> 
+          <img class="img-fluid" src="img/Logo.png" alt="" style="width: 10rem;">
+          </a>
+        </div>
+        <div class="col-8" >
+            
+          <nav class="navbar navbar-expand-lg h-100 float-end me-2 me-lg-5 ">
+            <div class="container-fluid">
+              <button class="navbar-toggler secundaria" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item dropdown mx-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jogos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="Cat_Aventura.html" >Aventura</a></li>
+                      <li><a class="dropdown-item" href="Cat_Terror.html">Terror</a></li>
+                      <li><a class="dropdown-item" href="Cat_Cooperativo.html">Cooperativo</a></li>
+                      <li><a class="dropdown-item" href="Cat_Corrida.html">Corrida</a></li>
+                      <li><a class="dropdown-item" href="Cat_Soulslike.html">Soulslike</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link texto-principal" href="contato.html">Fale Conosco</a>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link dropdown-toggle texto-principal" href="..." id="navbarLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Login
+                    </a>
+                    <ul class="dropdown-menu p-3" aria-labelledby="navbarLogin">
+                      <form method="post" action="login.php">
+                      <li><label for="login">Login</label>
+                          <input type="text" name="txtlogin" id="login" placeholder="E-mail/Usuário" size="30"  >
+                      </li>
+                      <li><label for="senha">Senha</label>
+                        <input type="password" name="txtsenha" id="senha" size="12" placeholder="Senha">
+                      </li>
+                      <li class="float-end"><input type="submit" value="Entrar"></li>
+                      </form>
+                    </ul>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="container mt-3">
+<!--CARROSEL-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrosel/It-takes-two-capa.jpg" class="rounded d-block w-100" alt="Elden Ring">
+    </div>
+    <div class="carousel-item principal">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/ohClxMmNLQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="carousel-item">
+        <iframe style="height: 28rem;" class="w-100" src="https://www.youtube.com/embed/GAWHzGNcTEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!--CONTEUDO-->
+
+<div class="row conteudo-principal">
+    <div class="col-md-9 col-sm-12 py-4">
+        <div class="container principal rounded p-5">
+        <h2 class="texto-conteudo">It Takes Two</h2>
+        <p class="texto-conteudo">Gênero: Cooperativo, Aventura</p>
+        <p class="texto-conteudo">Classificação Indicativa: 12</p>
+        <p class="texto-conteudo">Plataformas: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</h5>
+        <p class="texto-conteudo">Data de Lançamento: 26 de Março de 2021 (03/26/2021)</h5>
+        <p class="texto-conteudo">Desenvolvedora(s): Hazelight Studios</p>
+
+        <p class="texto-conteudo text-break">It Takes Two é um jogo eletrônico de ação e aventura com elementos de jogos de plataforma.
+            Ele foi projetado especificamente para o modo multijogador cooperativo em tela dividida, o que significa que ele precisa
+            ser jogado com outro jogador local ou online. O jogo apresenta um grande número de mecânicas de vários gêneros de jogos
+            eletrônicos. Essas mecânicas de jogo estão ligadas à história e ao tema de cada nível. Por exemplo, em um dos níveis,
+            o Cody ganha a habilidade de voltar no tempo, enquanto a May pode se replicar. Os jogadores devem cooperar um com o
+            outro e utilizar essas habilidades para progredir. O jogo também conta com um grande número de minijogos.
+        </p>
+        <p class="texto-conteudo text-break">
+            Cody e May são casados, mas estão considerando o divórcio depois de uma discussão em que o Cody cobra sua esposa sobre 
+            ela trabalhar o tempo todo, e ela ter argumentado que seu marido nunca mostra apreço pelo seu trabalho. Depois de contar 
+            para a sua filha Rose que eles estão se separando, a menina pega suas bonecas feitas à mão, que se parecem com seus pais, 
+            leva-as para o galpão da família e tenta consertar seu relacionamento com uma encenação. Quando uma lágrima de Rose cai 
+            sobre as bonecas, os pais se encontram presos dentro do corpo delas. Após isso, o Dr. Hakim, um livro de terapia para 
+            relacionamentos, diz a May e Cody que ele recebeu a tarefa de tentar consertar o relacionamento dos dois enquanto eles 
+            tentam falar com a Rose.
+        </p>
+
+        <div class="row">
+        <h4 class="texto-conteudo my-3"> Requisitos e Configurações para PC</h5>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="texto-conteudo">Requisitos Mínimos:</h5>
+            <p class="texto-conteudo text-break">SO: Windows 8.1 64-bit or Windows 10 64-bit<br>
+                Processador: Intel Core i3-2100T or AMD FX 6100<br>
+                Memória: 8 GB de RAM<br>
+                Placa de vídeo: Nvidia GeForce GTX 660 or AMD R7 260x<br>
+                DirectX: Versão 11<br>
+                Rede: Conexão de internet banda larga<br>
+                Armazenamento: 50 GB de espaço disponível</p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h5 class="texto-conteudo">Requisitos Recomendados:</h5>
+            <p class="texto-conteudo text-break">SO: Windows 8.1 64-bit or Windows 10 64-bit<br>
+                Processador: Intel Core i5 3570K or AMD Ryzen 3 1300x<br>
+                Memória: 16 GB de RAM<br>
+                Placa de vídeo: Nvidia GeForce GTX 980 or AMD R9 290X<br>
+                DirectX: Versão 11<br>
+                Rede: Conexão de internet banda larga<br>
+                Armazenamento: 50 GB de espaço disponível</p>
+        </div>
+        </div>
+        
+
+        <div class="row mt-5">
+            <h3 class="texto-conteudo">Galeria</h3>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/It-Takes-Two/It-takes-two-1.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/It-Takes-Two/It-takes-two-2.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/It-Takes-Two/It-takes-two-3.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/It-Takes-Two/It-takes-two-4.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/It-Takes-Two/It-takes-two-5.jpg" class="img-fluid fotos w-100" alt="...">
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3 galeria">
+                <img src="img/Jogos/It-Takes-Two/It-takes-two-6.jpg" class="img-fluid fotos w-100" alt="...">
+
+            </div>
+            
+        </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-3 col-sm-12 py-4">
+        <div class=" principal rounded py-5 px-2">
+            <h3 class="texto-principal text-center">Recomendados</h3>
+            
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/back4blood-card.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Back 4 Blood</h5>
+                      <p class="texto-card">Gênero: Cooperativo, Survivor Horror</p>
+                      <p class="texto-card">Plataforma: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</p>
+                      <p class="texto-card">Back 4 Blood é um jogo de tiro em primeira pessoa dos criadores da franquia aclamada pela crítica 
+                        Left 4 Dead. Experimente a intensa campanha narrativa de 4 jogadores.</p>
+                      <a href="J_Back4Blood.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class=" mb-4 mb-lg-0 mt-5" >
+                <div class="card secundaria">
+                    <img src="img/cards/star-wars-card.jpg" class="rounded card-img-top" style="height: 12rem;" alt="...">
+                    <div class="card-body">
+                      <h5 class="texto-card">Star Wars Jedi Fallen Order</h5>
+                      <p class="texto-card">Gênero: Aventura, RPG, Soulslike</p>
+                      <p class="texto-card">Plataforma: PC, Playstation 4, Playstation 5, Xbox One, Xbox Series X/S</p>
+                      <p class="texto-card">Prepare-se para cruzar a galáxia em STAR WARS Jedi: Fallen Order, uma aventura em terceira pessoa cheia de ação da Respawn Entertainment.
+                        Um padawan perdido precisa completar seu treinamento</p>
+                      <a href="J_SWJediFallenOrder.html" class="btn btn-acesse">Conferir</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+<!--RODAPÉ-->
+<div class="cor-rodape">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-3 texto-rodape col-sm-12 mb-4 mb-lg-0">
+          <div class="col"><img class="w-75" src="img/logo-franco.png" alt=""></div>
+          <div class="col"> <p> Desenvolvido por João Pedro Fazoli de Souza</p>
+          <p>Estudante do 5° Semestre de Ciência da Computação</p></div>  
+      </div>
+      <div class="col-lg-3 col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Redes Sociais</h5></li>
+          <li><hr class="divider"></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://pt-br.facebook.com/">Facebook</a></li>
+          <li class="texto-rodape"><a class="nav-link" target="_blank" href="https://twitter.com/login?lang=pt">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Categorias</h5></li>
+          <li><hr class="divider"></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Aventura.html">Aventura</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Terror.html">Terror</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Cooperativo.html">Cooperativo</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Corrida.html">Corrida</a></li>
+          <li><a class="nav-link texto-rodape" href="Cat_Soulslike.html">Soulslike</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 texto-rodape col-sm-12  mb-4 mb-lg-0">
+        <ul class="navbar-nav">
+          <li><h5>Contato</h5></li>
+          <li><hr class="divider"></li>
+          <li>Telefone: +55 (19) 90000-0000</li>
+          <li>E-mail: contato@gameview.com.br</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
